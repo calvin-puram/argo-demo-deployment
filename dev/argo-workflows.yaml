@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: calvinpuram/argo-demo:1.1.1
+          image: calvinpuram/argo-demo:1.1.2
           ports:
             - containerPort: 5000
 

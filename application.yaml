@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/calvin-puram/argo-demo-deployment.git
+    repoURL: https://github.com/robinelastisys/argo-demo-deployment.git
     targetRevision: HEAD
     path: dev
   destination:
@@ -17,6 +17,6 @@ spec:
     syncOptions:
       - CreateNamespace
 
-    automate:
+    automated:
       selfHeal: true
       prune: true
